@@ -26,8 +26,8 @@ body{
 
     display: flex;
     justify-content:space-between;
-    max-width: 882px;
-    margin: 0  auto;
+    max-width: 992px;
+    margin: 1  auto;
 }
 .nav-link{
     color: rgb(253, 253, 253);
@@ -86,6 +86,38 @@ transition: 0.5s;
     width: 300px;
     vertical-align: middle;
     white-space: nowrap;
+
   }
 
-  
+  .button{
+
+    width: 340px;
+    height: 40px;
+    background:  #0b0129;
+    border: none ;
+    color: rgb(230, 230, 230);
+    margin-bottom: 16px;
+  }
+
+.parrafo{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(235, 233, 232);
+justify-content: center;
+}
+
+.titulo{
+
+    color: rgb(6, 139, 240);
+    border: #59a3e0;
+    justify-self: center;
+    margin: 40px 30px 10px;
+    padding: 10px 40px;
+    font-weight: 10px;
+
+}
+
+.body2{
+
+    background-image: url('images/3.jpg');
+
+}
